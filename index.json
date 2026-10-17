@@ -1,0 +1,15 @@
+{
+ "version": 1,
+ "updated": "2026-10-17T17:19:13+00:00",
+ "digests": [
+  {
+   "id": "2026-10-17-backfill",
+   "kind": "backfill",
+   "title": "AI startup ideas — 90-day backfill, 2026-07-19 to 2026-10-17",
+   "period_start": "2026-07-19T17:16:27+00:00",
+   "period_end": "2026-10-17T17:16:27+00:00",
+   "overview": "This period's strongest ideas treat AI agents as a new class of user and actor. Startups are building controls that approve, verify, and insure agent actions, and they are rebuilding software, marketplaces, and operating systems so agents can use them directly. A second group treats compute as a commodity that needs exchanges, insurance, and new hardware substrates. A third group sells the data and simulations that frontier and robotics labs need. Many founders also skip software sales: they buy or start the service business (radiology, law, trucking, real estate) and run it with agents.",
+   "idea_count": 30
+  }
+ ]
+}
