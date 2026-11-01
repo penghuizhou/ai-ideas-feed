@@ -1,0 +1,203 @@
+{
+ "id": "2026-11-01-weekly",
+ "kind": "weekly",
+ "title": "AI startup ideas — Weekly, 2026-10-17 to 2026-11-01",
+ "period_start": "2026-10-17T17:16:27+00:00",
+ "period_end": "2026-11-01T16:30:46+00:00",
+ "overview": "In this period, many founders sell the finished work itself, such as legal claims, tax credits and schooling, rather than software for doing it. A second group is betting that the next data advantage comes from the physical world: muscle signals, car repairs and permit archives. The agent infrastructure layer is getting more specific, with separate products for per-agent computers, access across company boundaries, and search without embeddings. AI compute costs are now a market of their own, with startups working on ocean data centers, inference auctions and cards built for AI spend.",
+ "themes": [
+  "AI-native service firms",
+  "New data from the physical world",
+  "Trust and plumbing for agents",
+  "The economics of AI compute",
+  "New consumer media formats"
+ ],
+ "ideas": [
+  {
+   "id": "yc:wingman-law",
+   "theme": "AI-native service firms",
+   "name": "Wingman Law",
+   "url": "https://www.ycombinator.com/companies/wingman-law",
+   "source": "yc",
+   "date": "2026-10-26",
+   "signal": "YC Fall 2026; Generative AI, Legal, LegalTech",
+   "summary": "AI-native personal injury law firm. Wingman Law is an AI-native personal injury law firm. Attorneys lead a team of AI agents to recover compensation for people injured in accidents. We are solving the human bottle neck in personal injury.",
+   "idea": "A personal injury law firm where attorneys lead teams of AI agents to win compensation for injured people.",
+   "why": "It is a law firm, not a tool sold to law firms, so it keeps the fees from the case. It aims at the human bottleneck in a high-volume, contingency-based practice."
+  },
+  {
+   "id": "yc:claimkit",
+   "theme": "AI-native service firms",
+   "name": "ClaimKit",
+   "url": "https://www.ycombinator.com/companies/claimkit",
+   "source": "yc",
+   "date": "2026-10-20",
+   "signal": "YC Fall 2026; Finance, B2B, AI",
+   "summary": "AI-native tax firm. AI-native tax firm, starting with R&D tax credits in the US, UK, and Australia",
+   "idea": "A tax firm run on AI, starting with R&D tax credit claims in the US, UK and Australia.",
+   "why": "R&D credits are a narrow, document-heavy niche, which makes them a good first market for a full-service AI firm. Starting in three countries at once suggests the work carries across tax systems."
+  },
+  {
+   "id": "yc:cardinal-square",
+   "theme": "AI-native service firms",
+   "name": "Cardinal Square",
+   "url": "https://www.ycombinator.com/companies/cardinal-square",
+   "source": "yc",
+   "date": "2026-10-28",
+   "signal": "YC Fall 2026; Education, Consumer, AI",
+   "summary": "AI-native schools. Cardinal Square is building AI-native schools, starting unaccredited with an after-school writing class before building full, accredited schools. We think education is going to look very different in a few years; not a world without teachers, but one where great educators and AI work side by side to deliver personalized education to every student.",
+   "idea": "AI-native schools, starting with an unaccredited after-school writing class and later building full accredited schools.",
+   "why": "It runs the school itself instead of selling edtech to schools. The low-risk after-school class lets it test the model before it takes on accreditation."
+  },
+  {
+   "id": "yc:axonnic",
+   "theme": "New data from the physical world",
+   "name": "Axonnic",
+   "url": "https://www.ycombinator.com/companies/axonnic",
+   "source": "yc",
+   "date": "2026-10-27",
+   "signal": "YC Fall 2026; Neurotechnology, Robotics, Data Labeling",
+   "summary": "Bringing human dexterity to every robot. Axonnic is building the missing data layer for dexterous robotics. Our wearable EMG technology captures human intent, effort and force directly from muscle activity as people demonstrate physical tasks. By revealing the physical signals that video cannot capture, Axonnic gives AI models the data they need to learn more precise and dexterous behaviour. Beyond robotics, this creates a foundation for new forms of human–computer interaction in which technology can understand and respond directly to human movement and intent.",
+   "idea": "Wearable EMG sensors that record muscle activity while people do physical tasks, producing training data for dexterous robots.",
+   "why": "It captures force and intent, which video demonstrations miss. That makes it a data layer for robot learning, not another robot company."
+  },
+  {
+   "id": "yc:bayworks",
+   "theme": "New data from the physical world",
+   "name": "Bayworks",
+   "url": "https://www.ycombinator.com/companies/bayworks",
+   "source": "yc",
+   "date": "2026-10-30",
+   "signal": "YC Fall 2026; B2B, AI, Automotive",
+   "summary": "Intelligence that runs Automotive Operations. Bayworks is building the intelligence that runs automotive operations. Self-driving manufacturers recorded every mile a car drove. Nobody recorded how those cars got fixed. Bayworks captures how expert technicians fix cars at the source. In 110 days, we've gone from 0 to 80+ dealerships doing 4,000 car repairs a day, including a top 50 US dealer group with $3Bn+ revenue.",
+   "idea": "Software that records how expert technicians fix cars at dealerships and uses that to run automotive service operations.",
+   "why": "Its pitch is that self-driving companies logged every mile but nobody logged repairs, so it is building that missing dataset. It reports 80+ dealerships in 110 days."
+  },
+  {
+   "id": "tc:3183106",
+   "theme": "New data from the physical world",
+   "name": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+   "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+   "source": "techcrunch",
+   "date": "2026-10-29",
+   "signal": "TechCrunch",
+   "summary": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction. Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream’s world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+   "idea": "Dream builds an AI world model for construction, trained on building data from US permit archives.",
+   "why": "It applies the foundation-model approach to a physical industry, grounded in physics and building standards. Public permit archives work as its training set, much as text does for LLMs."
+  },
+  {
+   "id": "yc:routant",
+   "theme": "Trust and plumbing for agents",
+   "name": "Routant",
+   "url": "https://www.ycombinator.com/companies/routant",
+   "source": "yc",
+   "date": "2026-10-30",
+   "signal": "YC Fall 2026; AIOps, Cybersecurity, AI",
+   "summary": "Last mile deployment and connectivity for Agents as a Service. AI agents won’t stay inside the companies that build them. The most valuable agents will work across company boundaries, inside customers’ private systems. In those environments, intelligence is no longer the barrier to deployment. Trust and access are. Routant is the zero-trust access layer for this new agentic world. Vendors integrate once, while customers retain governance over every deployment, deciding what agents can access and which actions need human review, with a complete audit trail of every action.",
+   "idea": "A zero-trust access layer that lets vendors deploy agents inside customers' private systems, while customers control what the agents can touch.",
+   "why": "It bets that agents-as-a-service will run across company boundaries, where trust and access are the hard part, not intelligence. Every action gets a human-review setting and an audit trail."
+  },
+  {
+   "id": "yc:superserve",
+   "theme": "Trust and plumbing for agents",
+   "name": "Superserve",
+   "url": "https://www.ycombinator.com/companies/superserve",
+   "source": "yc",
+   "date": "2026-10-27",
+   "signal": "YC Fall 2026; Cloud Computing, Infrastructure, AI",
+   "summary": "Virtual machines for long-running agents. Superserve gives every AI agent its own computer in the cloud. Each one is an isolated VM that starts in under 50ms, sleeps between turns, and picks up exactly where it left off, for hours, weeks or indefinitely. Traditional cloud infrastructure was built to run one app for many users. Agents flip that. Each agent needs its own isolated machine where it can write and run code, use tools and work on its own for long stretches. Everything it produces has to persist the whole time, the way your laptop keeps your work. That means agent computers have to…",
+   "idea": "Isolated cloud VMs for AI agents that start in under 50ms, sleep between turns and keep their state for weeks.",
+   "why": "It reverses the usual cloud model, where one app serves many users: here each agent gets its own persistent machine. That points to compute being sized per agent, not per app."
+  },
+  {
+   "id": "yc:wondersearch",
+   "theme": "Trust and plumbing for agents",
+   "name": "Wondersearch",
+   "url": "https://www.ycombinator.com/companies/wondersearch",
+   "source": "yc",
+   "date": "2026-10-20",
+   "signal": "YC Fall 2026; Developer Tools, Infrastructure, AI",
+   "summary": "Instant semantic search over your data without embeddings. Our mission is to give every AI agent the right context, from any amount of data. WonderSearch is search built for AI agents. We let developers make all of their data searchable by meaning, without embeddings, servers or ingestion, so agents can pull the right context and cite where it came from. Unlike vector databases and RAG stacks, there's no pipeline to build or maintain: connect your files and data, and they're searchable right away. It runs on our own search model, and you pay only per query, whatever the size of your data.…",
+   "idea": "Semantic search for AI agents that works on raw files and data without embeddings, ingestion or servers, priced per query.",
+   "why": "It is a direct bet against the vector database and RAG pipeline stack. It runs on its own search model and charges by query, not by data size."
+  },
+  {
+   "id": "hn:50137950",
+   "theme": "Trust and plumbing for agents",
+   "name": "Sphinx – A hook that quizzes you on your AI's code before shipping",
+   "url": "https://sphinx-six-theta.vercel.app/",
+   "source": "hn",
+   "date": "2026-10-18",
+   "signal": "Show HN, 253 pts, https://news.ycombinator.com/item?id=50137950",
+   "summary": "Sphinx – A hook that quizzes you on your AI's code before shipping. FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works.",
+   "idea": "Sphinx is an open-source hook that quizzes developers on the AI-written code they are about to push to production.",
+   "why": "It flips AI code review around: instead of checking the code, it checks whether the human understands it. Its strong HN response suggests real worry about code nobody on the team understands."
+  },
+  {
+   "id": "yc:aikido-technologies",
+   "theme": "The economics of AI compute",
+   "name": "Aikido Technologies",
+   "url": "https://www.ycombinator.com/companies/aikido-technologies",
+   "source": "yc",
+   "date": "2026-10-27",
+   "signal": "YC Fall 2026; Energy, Renewable Energy, Cloud Computing, AI",
+   "summary": "Clean marine AI datacenters. We're building GW-scale datacenters in the ocean where there are no limits to the speed and scale of deployment. Our proprietary offshore platform structure supports a 15MW+ wind turbine, hours of battery storage, backup diesel power generation and 10+ MW of data halls inside their structure, which can be cooled freely by the ocean.",
+   "idea": "Offshore AI data centers built into floating platforms, each with a wind turbine, batteries, backup power and data halls cooled by the ocean.",
+   "why": "It goes around land, power and permitting limits by moving compute to sea. This is one of several bets this period on new physical forms for data centers."
+  },
+  {
+   "id": "yc:routerplus",
+   "theme": "The economics of AI compute",
+   "name": "RouterPlus",
+   "url": "https://www.ycombinator.com/companies/routerplus",
+   "source": "yc",
+   "date": "2026-10-28",
+   "signal": "YC Fall 2026; Developer Tools, Marketplace, B2B, AI",
+   "summary": "Marketplace for AI inference: the right model at the best price. RouterPlus is a marketplace for AI inference. We find the right AI model for a team's product, then get it served at the team's scale, at the best price. Most teams that run AI in production pay for a top model on every task, when a cheaper model can do most of the work. The same model can also cost twice as much depending on which provider runs it, and many providers fail at peak traffic. RouterPlus tests models on a team's own traffic and recommends one. Providers then compete for the workload. We check that the chosen…",
+   "idea": "A marketplace that tests models on a team's real traffic, recommends one, and has inference providers compete to serve it.",
+   "why": "It treats inference as a commodity, where the same model can cost twice as much depending on who serves it. The business is a marketplace, not just a router."
+  },
+  {
+   "id": "yc:ernd",
+   "theme": "The economics of AI compute",
+   "name": "ernd",
+   "url": "https://www.ycombinator.com/companies/ernd",
+   "source": "yc",
+   "date": "2026-10-29",
+   "signal": "YC Fall 2026; Fintech, AI",
+   "summary": "The Credit Card for the AI stack. ernd is the card for companies that pay for AI, with 4% back on AI spend and 2% on everything else planned for launch. We pool startups’ purchasing power to negotiate discounts, higher usage limits and priority support from AI providers. In our first 48hrs, we onboarded 10 startups and landed 5 vendor partnerships. We combine experience in quant finance at Bridgewater and IMC, payments at Ripple, financial AI at Farsight, and founding an investment fund focused on distressed industrial acquisitions. We're also credit card nerds, with at least five cards each…",
+   "idea": "A corporate credit card for AI spend that pools startups' buying power to get discounts and higher usage limits from AI providers.",
+   "why": "AI spend is now large enough to support its own card and a buying group. The rewards and negotiated terms are aimed at one fast-growing budget line."
+  },
+  {
+   "id": "yc:yam",
+   "theme": "New consumer media formats",
+   "name": "Yam",
+   "url": "https://www.ycombinator.com/companies/yam",
+   "source": "yc",
+   "date": "2026-10-19",
+   "signal": "YC Fall 2026; Generative AI, Gaming, Creator Economy",
+   "summary": "AI-powered dating sims for women. Yam simulates a Love Island–style dating experience for women, starring their favorite characters. Avg playtime per DAU is 3+ hrs!",
+   "idea": "AI dating sims for women, set in a Love Island-style show and starring their favorite characters.",
+   "why": "It targets a specific, underserved audience with an interactive reality-TV format. It reports more than 3 hours of average daily play per active user."
+  },
+  {
+   "id": "yc:taanai",
+   "theme": "New consumer media formats",
+   "name": "Taan.ai",
+   "url": "https://www.ycombinator.com/companies/taanai",
+   "source": "yc",
+   "date": "2026-10-31",
+   "signal": "YC Fall 2026; Generative AI",
+   "summary": "the most precise & controllable foundation music models. Taan builds foundation music models that do what you tell them to, when you tell them to. We're starting with music for video. Give Taan a video and it watches it, then composes an original score that follows the emotion and timing of every cut. If the scene is tense for 10 seconds and then turns happy, the music changes at that exact moment. You get back a fully mixed .mp4. Agents and apps call Taan through our API, so any video tool can add scored, synced music with one call. Today's music models can make catchy tracks, but you can't…",
+   "idea": "Music models that watch a video and compose an original score that changes with the emotion and timing of each cut.",
+   "why": "It competes on precision and control, not catchy tracks, which is what video tools need. It is sold as an API so agents and apps can add synced music with one call."
+  }
+ ],
+ "counts": {
+  "yc": 53,
+  "hn": 60,
+  "techcrunch": 28
+ },
+ "failed_sources": []
+}

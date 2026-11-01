@@ -1,7 +1,17 @@
 {
  "version": 1,
- "updated": "2026-10-17T17:35:52+00:00",
+ "updated": "2026-11-01T16:31:24+00:00",
  "digests": [
+  {
+   "id": "2026-11-01-weekly",
+   "kind": "weekly",
+   "title": "AI startup ideas — Weekly, 2026-10-17 to 2026-11-01",
+   "period_start": "2026-10-17T17:16:27+00:00",
+   "period_end": "2026-11-01T16:30:46+00:00",
+   "overview": "In this period, many founders sell the finished work itself, such as legal claims, tax credits and schooling, rather than software for doing it. A second group is betting that the next data advantage comes from the physical world: muscle signals, car repairs and permit archives. The agent infrastructure layer is getting more specific, with separate products for per-agent computers, access across company boundaries, and search without embeddings. AI compute costs are now a market of their own, with startups working on ocean data centers, inference auctions and cards built for AI spend.",
+   "idea_count": 15,
+   "hash": "fceee5b0cd43bebb"
+  },
   {
    "id": "2026-10-17-backfill",
    "kind": "backfill",
