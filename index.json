@@ -1,7 +1,17 @@
 {
  "version": 1,
- "updated": "2026-11-01T16:31:24+00:00",
+ "updated": "2026-11-09T21:22:51+00:00",
  "digests": [
+  {
+   "id": "2026-11-09-weekly",
+   "kind": "weekly",
+   "title": "AI startup ideas — Weekly, 2026-11-01 to 2026-11-09",
+   "period_start": "2026-11-01T16:30:46+00:00",
+   "period_end": "2026-11-09T21:22:03+00:00",
+   "overview": "The clearest pattern this period is a move from making AI output to proving it is right. Several companies formally verify agent queries or math proofs, or build evals that let agent code ship without human review. A second group builds training grounds that score agents against what actually happened, in software and on real robots. AI is also moving into slow, data-poor physical systems such as the distribution grid, and into money flows: claims review, fraud decisions, item pricing and payments started by agents.",
+   "idea_count": 15,
+   "hash": "b6d11a09bbfa2bdb"
+  },
   {
    "id": "2026-11-01-weekly",
    "kind": "weekly",

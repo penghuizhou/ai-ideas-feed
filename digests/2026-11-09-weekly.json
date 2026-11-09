@@ -1,0 +1,255 @@
+{
+ "id": "2026-11-09-weekly",
+ "kind": "weekly",
+ "title": "AI startup ideas — Weekly, 2026-11-01 to 2026-11-09",
+ "period_start": "2026-11-01T16:30:46+00:00",
+ "period_end": "2026-11-09T21:22:03+00:00",
+ "overview": "The clearest pattern this period is a move from making AI output to proving it is right. Several companies formally verify agent queries or math proofs, or build evals that let agent code ship without human review. A second group builds training grounds that score agents against what actually happened, in software and on real robots. AI is also moving into slow, data-poor physical systems such as the distribution grid, and into money flows: claims review, fraud decisions, item pricing and payments started by agents.",
+ "themes": [
+  "Proving AI output is correct",
+  "Training grounds graded by reality",
+  "Money, claims and risk decisions",
+  "Modeling the physical grid and infrastructure",
+  "New inputs and predictive models"
+ ],
+ "ideas": [
+  {
+   "id": "yc:axiomat",
+   "theme": "Proving AI output is correct",
+   "name": "Axiomat",
+   "url": "https://www.ycombinator.com/companies/axiomat",
+   "source": "yc",
+   "date": "2026-11-04",
+   "signal": "YC Fall 2026; SaaS, Big Data, AI",
+   "summary": "We make AI that never hallucinates. Axiomat makes it impossible for AI agents to make mistakes when querying a company’s data. It formally verifies that the agents’ queries are correct before employees or customers rely on the answers. It is becoming increasingly important for companies to rely on AI without the need for humans to manually check the answers. This has created a need for systems which can guarantee correctness without limiting the agent’s capabilities. Axiomat provides the infrastructure to prove that answers are correct, starting with data queries and analysis. It brings…",
+   "idea": "Axiomat formally checks that the data queries AI agents write are correct before anyone relies on the answers.",
+   "why": "It replaces human spot-checks with formal proof, starting with data queries and analysis. This is a hard technical bet that agent adoption will be limited by guarantees, not by model capability.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs to prove correctness for real, messy company schemas without limiting what agents can ask."
+  },
+  {
+   "id": "tc:3185344",
+   "theme": "Proving AI output is correct",
+   "name": "Axiom Math wants to keep AI slop out of mathematics",
+   "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+   "source": "techcrunch",
+   "date": "2026-11-05",
+   "signal": "TechCrunch",
+   "summary": "Axiom Math wants to keep AI slop out of mathematics. As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+   "idea": "Axiom Math uses AI agents to formally verify mathematics, and has verified the Stacks Project, one of the field's largest libraries.",
+   "why": "As AI floods math with unchecked proofs, the scarce good becomes verified results rather than generated ones. A finished verification of a major library shows the method works at scale.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs a business model beyond research prestige, likely by bringing formal checking to other fields."
+  },
+  {
+   "id": "yc:plover-labs",
+   "theme": "Proving AI output is correct",
+   "name": "Plover Labs",
+   "url": "https://www.ycombinator.com/companies/plover-labs",
+   "source": "yc",
+   "date": "2026-11-05",
+   "signal": "YC Fall 2026; Developer Tools, B2B, Enterprise, Enterprise Software, AI",
+   "summary": "Enable enterprises to ship agent code without human review. Plover Labs is building toward a future where AI agents write, ship, and maintain most of a company's software. We make it possible for agents to own real engineering roles, not just suggest code for someone else to approve. Coding models keep getting more capable, but enterprise adoption lags behind AI-native startups because enterprises don't yet trust agent output. Each codebase has conventions, history, and failure modes that a general-purpose model doesn't know. We learn those continuously from the code, how the team works, and…",
+   "idea": "Plover Labs learns each enterprise codebase's conventions and failure modes so that agent-written code can ship without human review.",
+   "why": "It treats trust, not code generation, as the barrier to enterprise adoption of coding agents. The aim is for agents to hold real engineering roles, not just suggest code.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs a measurable track record of low defect rates before an enterprise removes human review."
+  },
+  {
+   "id": "yc:xulux",
+   "theme": "Proving AI output is correct",
+   "name": "Xulux",
+   "url": "https://www.ycombinator.com/companies/xulux",
+   "source": "yc",
+   "date": "2026-11-09",
+   "signal": "YC Winter 2027; Developer Tools, Reinforcement Learning, AI",
+   "summary": "Prepare your devtool for agents. Xulux helps Devtool companies increase their user conversion. Problem: Companies lose customers to failed agent implementations Solution: We proactively create evals and benchmarks to find out why agents drop your tools and fix them automatically. Our evals keeps up with the changes and generate evolving tests forever. And we run these evals across models and harnesses.",
+   "idea": "Xulux builds evolving evals across models and harnesses to find out why coding agents fail with a devtool, and then fixes the problem.",
+   "why": "It frames agents as a new customer segment that devtool companies lose without noticing. Agent-friendliness becomes a conversion metric that can be measured.",
+   "edges": [
+    "verification",
+    "solo-buildable"
+   ],
+   "edge_note": "Needs to tie eval improvements to signups or usage that devtool companies will pay for."
+  },
+  {
+   "id": "yc:reific",
+   "theme": "Training grounds graded by reality",
+   "name": "Reific",
+   "url": "https://www.ycombinator.com/companies/reific",
+   "source": "yc",
+   "date": "2026-11-06",
+   "signal": "YC Fall 2026; Generative AI, Machine Learning, Reinforcement Learning, Infrastructure, AI",
+   "summary": "RL environments for superhuman reasoning over time. Reific builds RL environments for superhuman reasoning over time, for the frontier labs that train agents. Each comes from real, de-identified records (health data, industrial sensors, compute-cluster logs), in three families: personal agents, industry, and science and compute. The world keeps moving while the agent works, so the agent must keep learning: data arrive on a clock, and every answer is checked against what actually happened. In each family, the best frontier model averages below half, and models that train on our environments…",
+   "idea": "Reific sells frontier labs RL environments built from de-identified real records, where data arrives over time and every answer is scored against what actually happened.",
+   "why": "Grading against real outcomes in a moving world is a test of forecasting and ongoing learning, not static Q&A. The company says the best frontier model averages below half on these tasks.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs a steady supply of rich time-stamped records and sustained demand from a small set of labs."
+  },
+  {
+   "id": "yc:se3-labs",
+   "theme": "Training grounds graded by reality",
+   "name": "SE3 Labs",
+   "url": "https://www.ycombinator.com/companies/se3-labs",
+   "source": "yc",
+   "date": "2026-11-09",
+   "signal": "YC Fall 2026; Robotic Process Automation, Enterprise, AI",
+   "summary": "Real-World RL Environments for Physical AI. We build real-world RL environments for robots. Starting with tasks from industry partners, we test policies on real robots and identify where they fail. We use those failures to decide what data to collect and curate for the next policy update. Next, we're setting up physical sandboxes at partner sites, so policies can train on the exact tasks and conditions they'll face in deployment.",
+   "idea": "SE3 Labs tests robot policies on real robots with industry partners, finds where they fail, and uses those failures to choose what data to collect next.",
+   "why": "It moves robot evaluation from simulation to physical sandboxes at deployment sites. The failure data becomes a guide for which training data to collect.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs partner sites willing to host sandboxes and enough robot time to make the loop fast."
+  },
+  {
+   "id": "yc:elithia",
+   "theme": "Money, claims and risk decisions",
+   "name": "Elithia",
+   "url": "https://www.ycombinator.com/companies/elithia",
+   "source": "yc",
+   "date": "2026-11-08",
+   "signal": "YC Fall 2026; Health Tech, B2B, LegalTech, Insurance, AI",
+   "summary": "Agents for the medical review behind every claim. US workers' compensation paid out $64.1 billion in 2023. Personal injury, malpractice, and other insurance claims add billions more. Behind every one of these claims sit thousands of pages of medical records, and a clinician spends hours or days reading them to reconstruct what happened to the patient. Elithia is building agents to do this work. Our agents reconstruct patient histories, reason across conflicting evidence, and produce defensible analyses, with every finding cited to the original record. We've sold to physician expert witnesses…",
+   "idea": "Elithia builds agents that read thousands of pages of medical records behind injury and insurance claims and produce cited, defensible analyses.",
+   "why": "Workers' compensation alone paid $64.1 billion in 2023, and each claim depends on slow clinician review. Citing every finding to the source record makes the output usable in legal disputes.",
+   "edges": [
+    "verification",
+    "pricing and risk"
+   ],
+   "edge_note": "Needs analyses that hold up under cross-examination, so that insurers and expert witnesses rely on them."
+  },
+  {
+   "id": "hn:50358314",
+   "theme": "Money, claims and risk decisions",
+   "name": "Kairos – Open-source risk and fraud decisioning platform",
+   "url": "https://github.com/finic-ai/kairos",
+   "source": "hn",
+   "date": "2026-11-03",
+   "signal": "Show HN, 107 pts, https://news.ycombinator.com/item?id=50358314",
+   "summary": "Kairos – Open-source risk and fraud decisioning platform. Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing with fraudsters that are constantly changing their tactics. 1. Traditional fraud solutions use ML models such as XGBoost to detect fraud, but these models are dependent on quality labeled data which many businesses do not have. We address this by using “System…",
+   "idea": "Kairos is an open-source, real-time fraud and risk decisioning platform that offers an alternative to Sift and Sardine.",
+   "why": "It targets two weak points of classic fraud ML: too little labeled data and fraudsters who keep changing tactics. Open source undercuts expensive incumbents.",
+   "edges": [
+    "pricing and risk",
+    "solo-buildable"
+   ],
+   "edge_note": "Needs evidence that it catches fraud as well as label-trained models, plus a paid hosted tier."
+  },
+  {
+   "id": "hn:50366929",
+   "theme": "Money, claims and risk decisions",
+   "name": "I built a tool that prices a pre-built PC part by part",
+   "url": "https://pcdealcheck.com/",
+   "source": "hn",
+   "date": "2026-11-04",
+   "signal": "Show HN, 120 pts, https://news.ycombinator.com/item?id=50366929",
+   "summary": "I built a tool that prices a pre-built PC part by part. I've missed out on an awesome computer that I could use for a project because figuring out value took too long. Users paste a listing and receive a value grade, dated component estimates and a shareable report. AI reads the listing but my custom built price engine determines the grade (updated every day). Self financed and working now. Looking for feedback re: scoring, interface, and if its helpful. https://www.youtube.com/watch?v=Tpft--x3WlI",
+   "idea": "This tool takes a pasted listing for a pre-built PC and grades its value from a daily-updated, part-by-part price engine.",
+   "why": "AI only reads the listing, and a separate price engine sets the grade. This split between extraction and pricing could carry over to other used-goods markets.",
+   "edges": [
+    "pricing and risk",
+    "solo-buildable"
+   ],
+   "edge_note": "Needs fresh component price data and a path to revenue in a narrow hobby market."
+  },
+  {
+   "id": "yc:versine",
+   "theme": "Money, claims and risk decisions",
+   "name": "Versine",
+   "url": "https://www.ycombinator.com/companies/versine",
+   "source": "yc",
+   "date": "2026-11-05",
+   "signal": "YC Fall 2026; Fintech, Consumer Finance, Consumer Products, Neobank, AI",
+   "summary": "Let your agents send and receive money. We're Venmo for agents. Versine lets your agents send and receive money. We’re Venmo for agents. Connect it to ChatGPT, Claude, Muse or your own agent through our MCP. Then send your agent a dinner receipt and it splits the bill. Tell it “if I don’t run 10k tomorrow, pay Jake $10” and it checks Strava and pays out if you miss. It can also pay invoices that land in your inbox, or split rent and utilities with your roommates every month. Recipients don’t need an account: they get a link to cash out to their bank. Banking and payout services are provided…",
+   "idea": "Versine lets AI agents send and receive money through an MCP connection, for uses like splitting bills, paying invoices and conditional bets.",
+   "why": "Recipients cash out by link with no account, and payments can depend on outside data such as a Strava run. It is an early consumer payments layer for agents.",
+   "edges": [],
+   "edge_note": "Needs fraud controls and user trust strong enough to let an agent move money without asking first."
+  },
+  {
+   "id": "yc:evardi",
+   "theme": "Modeling the physical grid and infrastructure",
+   "name": "Evardi",
+   "url": "https://www.ycombinator.com/companies/evardi",
+   "source": "yc",
+   "date": "2026-11-04",
+   "signal": "YC Fall 2026; Smart Grid, Energy, AI",
+   "summary": "Agents that engineer the grid edge. At least 94% of US outage minutes start on the distribution grid, and most utilities are blind between the substation and the meter. Evardi builds a live model of a utility’s network from data it already has, matching every meter to its transformer and using virtual meters to show load and solar on every transformer. On top of that model, our AI agents do the engineering work utilities need at the grid edge: checking switching orders, finding outages after extreme weather and planning for new load from DERs and data centers. Because the model sees every…",
+   "idea": "Evardi builds a live model of a utility's distribution network from existing data and runs agents that check switching orders, find outages and plan for new load.",
+   "why": "Most US outage minutes start on the distribution grid, where utilities have little visibility. Virtual meters on every transformer turn existing data into a usable model.",
+   "edges": [],
+   "edge_note": "Needs long utility sales cycles to close and accuracy that grid engineers will sign off on."
+  },
+  {
+   "id": "yc:ryhla",
+   "theme": "Modeling the physical grid and infrastructure",
+   "name": "Ryhla",
+   "url": "https://www.ycombinator.com/companies/ryhla",
+   "source": "yc",
+   "date": "2026-11-01",
+   "signal": "YC Fall 2026; Solar Power, Climate, Energy, Renewable Energy, Infrastructure",
+   "summary": "Faster power grid connection for your projects. Ryhla develops proprietary models that replicate the distribution power grid and learn what gets a project connected. We work with solar/battery, EV charging and small data center developers.",
+   "idea": "Ryhla models the distribution grid and learns what gets solar, battery, EV charging and small data center projects approved for connection faster.",
+   "why": "Grid connection is a major bottleneck for new load and generation. Ryhla sells speed through that queue to developers rather than to utilities.",
+   "edges": [],
+   "edge_note": "Needs grid models accurate enough that developers change site choices based on them."
+  },
+  {
+   "id": "yc:kanopy",
+   "theme": "Modeling the physical grid and infrastructure",
+   "name": "Kanopy",
+   "url": "https://www.ycombinator.com/companies/kanopy",
+   "source": "yc",
+   "date": "2026-11-02",
+   "signal": "YC Fall 2026; Energy, Industrial",
+   "summary": "Computer vision operating layer for physical infrastructure. Video to automatically identify risks and condition on power lines, pipelines, rail, and other types of infrastructure over hundreds of miles at once.",
+   "idea": "Kanopy uses computer vision on video to flag risks and condition problems along hundreds of miles of power lines, pipelines and rail at once.",
+   "why": "It pitches itself as an operating layer across asset types, not a single-vertical inspection tool.",
+   "edges": [],
+   "edge_note": "Needs reliable video capture across long assets and detections that operators act on."
+  },
+  {
+   "id": "hn:50340088",
+   "theme": "New inputs and predictive models",
+   "name": "Subvocal – Talk to your computer without making noise",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "source": "hn",
+   "date": "2026-11-02",
+   "signal": "Show HN, 847 pts, https://news.ycombinator.com/item?id=50340088",
+   "summary": "Subvocal – Talk to your computer without making noise. Hi HN, we're Aarush and Arnav from The Subvocal Company (YC F26) ( https://subvocal.company/ ). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech. Here's a video of Dave from YC trying it out: https://www.youtube.com/watch?v=9QdX1eObVYI (Edit: you don't actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on…",
+   "idea": "Subvocal makes smart glasses that use RF sensing to decode silently mouthed words into text at the speed of speech.",
+   "why": "The team says it can work without moving the lips at all. That would make silent, private voice input to computers and agents possible.",
+   "edges": [],
+   "edge_note": "Needs consistent accuracy across users and a glasses form factor people will wear daily."
+  },
+  {
+   "id": "tc:3184087",
+   "theme": "New inputs and predictive models",
+   "name": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+   "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+   "source": "techcrunch",
+   "date": "2026-11-02",
+   "signal": "TechCrunch",
+   "summary": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’. Here’s a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+   "idea": "42AI came out of stealth with $62.5M to build a world model that predicts human behavior, even in new situations.",
+   "why": "It extends world models from physics to people. That is a bet that behavior prediction can become a general foundation model.",
+   "edges": [],
+   "edge_note": "Needs clear proof that its predictions beat simpler baselines in a use case someone pays for."
+  }
+ ],
+ "counts": {
+  "yc": 24,
+  "hn": 35,
+  "techcrunch": 17
+ },
+ "failed_sources": []
+}
