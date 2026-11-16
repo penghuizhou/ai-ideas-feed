@@ -1,0 +1,249 @@
+{
+ "id": "2026-11-16-weekly",
+ "kind": "weekly",
+ "title": "AI startup ideas — Weekly, 2026-11-09 to 2026-11-16",
+ "period_start": "2026-11-09T21:22:03+00:00",
+ "period_end": "2026-11-16T20:52:50+00:00",
+ "overview": "This week's strongest ideas treat prediction markets as raw material for a financial layer: structured hedges, quant trading, and market-wide world models. A second group builds the checks and training data that AI now needs, such as formal verification data for labs and fixes for outdated code habits in coding agents. Several companies sell finished work, like permit filings, legal work or buyer research, instead of selling tools. Physical AI is also moving toward data collection and simulation, from muscle-signal sleeves to new physics engines, while agent infrastructure keeps turning the web and internal systems into reusable tools.",
+ "themes": [
+  "Prediction markets and AI-native trading",
+  "Verification and data for AI models",
+  "AI-run services that sell outcomes",
+  "Data and simulation for physical AI",
+  "AI for science and engineering",
+  "Agent tooling"
+ ],
+ "ideas": [
+  {
+   "id": "yc:datanode",
+   "theme": "Prediction markets and AI-native trading",
+   "name": "DataNode",
+   "url": "https://www.ycombinator.com/companies/datanode",
+   "source": "yc",
+   "date": "2026-11-09",
+   "signal": "YC Winter 2027; Machine Learning, Analytics, Investments",
+   "summary": "Structured products on prediction markets. DataNode is building the structuring data layer for event risk. Our engine combines prediction markets with traditional derivatives to quantify and risk assess any event exposure and build a priced, tailored hedge, even before a market for it exists.",
+   "idea": "DataNode combines prediction market prices with traditional derivatives to measure exposure to any event and build a priced, custom hedge for it.",
+   "why": "It treats prediction markets as inputs to structured products, and it can price a hedge even before a market exists for that event. This points to an over-the-counter event-risk layer built on top of public prediction-market prices.",
+   "edges": [
+    "pricing and risk"
+   ],
+   "edge_note": "Needs liquid enough prediction markets to hedge against and buyers who trust prices for events with no market of their own."
+  },
+  {
+   "id": "yc:asterline",
+   "theme": "Prediction markets and AI-native trading",
+   "name": "Asterline",
+   "url": "https://www.ycombinator.com/companies/asterline",
+   "source": "yc",
+   "date": "2026-11-15",
+   "signal": "YC Winter 2027; Finance, Trading",
+   "summary": "Quantitative trading of prediction markets. Asterline is a quantitative trading firm that builds automated systems to exploit pricing inefficiencies in prediction markets. We built proprietary backtesting infrastructure to rapidly discover, validate, and deploy new strategies at scale.",
+   "idea": "Asterline is a quant trading firm that runs automated strategies to exploit pricing errors in prediction markets.",
+   "why": "Prediction markets are now big enough to support dedicated quant firms with their own backtesting systems. This suggests a market structure that is still inefficient but maturing quickly.",
+   "edges": [
+    "pricing and risk",
+    "solo-buildable"
+   ],
+   "edge_note": "Needs edges that last after fees and thin liquidity, plus enough capacity to grow into a real firm."
+  },
+  {
+   "id": "yc:mnemonic-labs",
+   "theme": "Prediction markets and AI-native trading",
+   "name": "Mnemonic Labs",
+   "url": "https://www.ycombinator.com/companies/mnemonic-labs",
+   "source": "yc",
+   "date": "2026-11-11",
+   "signal": "YC Fall 2026; AI",
+   "summary": "OpenAI for Financial Markets. Mnemonic Labs (YC F26) is a neolab founded by two brothers who are Olympiad finalists and MIT graduates; Kalki made $20M in annual PnL at 22 at Tower and Videh was the youngest quant at Citadel at 19. Just as LLMs and scaling laws quickly dominated all other NLP approaches, we're building world models that will dominate both human and machine traders.",
+   "idea": "Mnemonic Labs is a research lab building large world models of financial markets that it expects to beat both human and machine traders.",
+   "why": "It bets that scaling laws will apply to markets, so that general models replace hand-built quant signals the way large language models replaced older NLP methods. That is a hard claim to test, and it would be a major shift if true.",
+   "edges": [
+    "pricing and risk"
+   ],
+   "edge_note": "Needs evidence that scale beats specialized signals in noisy, changing markets, plus a clear way to make money from it: trading on its own, licensing, or both."
+  },
+  {
+   "id": "yc:repovive",
+   "theme": "Verification and data for AI models",
+   "name": "Repovive",
+   "url": "https://www.ycombinator.com/companies/repovive",
+   "source": "yc",
+   "date": "2026-11-13",
+   "signal": "YC Fall 2026; B2B, Data Science, AI",
+   "summary": "Scaling AI formal verification for chips and critical software. We work with AI labs to improve models on formal verification. We have $100k in contracts across two formalization RL environments and a $200k LOI for our broader coding data. Our team includes Olympiad medalists, former members of frontier labs, PhDs, and former Google engineers. We’ve published papers at leading AI conferences, including NeurIPS, ICLR, and IJCAI. We’ve formed the densest community cluster of 12,000 IMO, IOI, and ICPC medalists.",
+   "idea": "Repovive builds reinforcement-learning environments and coding data that teach AI models to do formal verification for chips and critical software.",
+   "why": "Formal proofs are one of the few areas where AI output can be checked by a machine, and labs are already paying for this training data. Its access to a large network of olympiad medalists gives it an unusual supply of expert talent.",
+   "edges": [
+    "verification"
+   ],
+   "edge_note": "Needs to keep supplying harder, verifiable tasks as labs build similar environments themselves."
+  },
+  {
+   "id": "hn:50443812",
+   "theme": "Verification and data for AI models",
+   "name": "Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "source": "hn",
+   "date": "2026-11-10",
+   "signal": "Show HN, 448 pts, https://news.ycombinator.com/item?id=50443812",
+   "summary": "Get your coding agent off ~2019 JavaScript, onto modern web primitives. Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without <span>s everywhere, `<dialog>` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent <div>+JS based pattern. We started an…",
+   "idea": "This project pushes coding agents to use modern browser features like dialog, field-sizing and CSS highlights, instead of the older div-plus-JavaScript patterns the models fall back on.",
+   "why": "It highlights a quiet failure of coding agents: they repeat what was common in their training data, not what is best today. Correcting model habits in a narrow domain may become a product category of its own.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs a way to measure whether agent output actually changes, and a reason to exist after models are retrained."
+  },
+  {
+   "id": "yc:contourholdings",
+   "theme": "AI-run services that sell outcomes",
+   "name": "Contour",
+   "url": "https://www.ycombinator.com/companies/contourholdings",
+   "source": "yc",
+   "date": "2026-11-15",
+   "signal": "YC Fall 2026; Energy, AI",
+   "summary": "AI-native permitting and compliance for America’s buildout. Contour acquires environmental consulting firms and runs them on Cortex, our AI platform. Its agents produce the reports, studies and permit applications. Customers get work turned around faster and our firms scale capacity without adding headcount.",
+   "idea": "Contour buys environmental consulting firms and runs them on its own AI platform, which drafts the reports, studies and permit applications.",
+   "why": "It is an AI-enabled roll-up in permitting, which is a bottleneck for building out energy and infrastructure. The company captures the margin from the work itself instead of selling software to consultants.",
+   "edges": [],
+   "edge_note": "Needs acquisition capital, careful integration, and permit filings that hold up with regulators."
+  },
+  {
+   "id": "yc:index-law",
+   "theme": "AI-run services that sell outcomes",
+   "name": "Index Law",
+   "url": "https://www.ycombinator.com/companies/index-law",
+   "source": "yc",
+   "date": "2026-11-12",
+   "signal": "YC Fall 2026; Legal, LegalTech, AI",
+   "summary": "Your company's AI lawyer. Index Law is building Mike-1, a superhuman AI lawyer*! Mike is an AI legal agent that gives every business the capabilities of a world-class legal team. Unlike traditional legal AI tools that help lawyers work faster, Mike gets legal work done directly for your business. It understands your business, reviews and negotiates contracts, handles corporate matters, and brings in vetted human lawyers when specialist expertise is needed. Your documents, agreements, signatures, and legal history live in one workspace. Mike remembers your business and becomes more useful…",
+   "idea": "Index Law's agent, Mike, does legal work directly for businesses, such as contract review, negotiation and corporate matters, and brings in vetted human lawyers when needed.",
+   "why": "It sells finished legal work to the business, not speed to lawyers, and uses humans only as an escalation layer. The workspace builds up memory of each client over time.",
+   "edges": [],
+   "edge_note": "Needs reliable accuracy and a clear liability model that businesses accept in place of outside counsel."
+  },
+  {
+   "id": "yc:gatherhq",
+   "theme": "AI-run services that sell outcomes",
+   "name": "GatherHQ",
+   "url": "https://www.ycombinator.com/companies/gatherhq",
+   "source": "yc",
+   "date": "2026-11-11",
+   "signal": "YC Fall 2026; B2B, Marketing, Market Research, AI",
+   "summary": "Applied AI for Enterprise GTM (3X founders, backed by ANT). Gather's long horizon agent serves enterprise GTM teams by continually interviewing real buyers and turning what it learned into content that drives pipeline and simulations that predict customer behavior. More than 65 enterprise marketing teams, including Envoy, Eclypsium, Cover Genius, Fortinet, CoStar, Bagel Brands, and Family Express, use Gather to continually fight AI slop and create original on-brand, third-party validated thought leadership, reports, ebooks, and campaign content. The value of that research compounds. Every…",
+   "idea": "GatherHQ runs a long-running agent that keeps interviewing real buyers and turns what it learns into marketing content and simulations that predict customer behavior.",
+   "why": "It grounds AI content in new primary research instead of recycled web text, and the research builds up into a proprietary dataset over time. It already serves over 65 enterprise marketing teams.",
+   "edges": [],
+   "edge_note": "Needs steady access to real buyers and proof that its simulations predict actual customer behavior."
+  },
+  {
+   "id": "hn:50522776",
+   "theme": "Data and simulation for physical AI",
+   "name": "Axonnic (YC F26) – Sleeves that track fingers and estimate force",
+   "url": "https://news.ycombinator.com/item?id=50522776",
+   "source": "hn",
+   "date": "2026-11-16",
+   "signal": "Launch HN, 10 pts, https://news.ycombinator.com/item?id=50522776",
+   "summary": "Axonnic (YC F26) – Sleeves that track fingers and estimate force. Hi HN! We’re Arsh and Max, founders of Axonnic ( https://axonnic.com ). We’ve developed a forearm sleeve that reads muscle activity to decode finger movements and estimate fingertip force, while leaving the hands bare. It’s used to record human movement and generate training data for dextrous robots. Here’s a demo video: https://youtube.com/shorts/xBrocTc9cfA We’ve found that electromyography (EMG) is a much better way to train robots than by video alone because video only captures movement, not muscle activity or the effort…",
+   "idea": "Axonnic makes forearm sleeves that read muscle activity to track finger movement and estimate fingertip force, generating training data for dexterous robots.",
+   "why": "It argues that video misses effort and force, so muscle signals are better training data for manipulation. This is a new sensor wedge into the robot-data supply chain.",
+   "edges": [],
+   "edge_note": "Needs proof that muscle-signal data measurably improves robot policies compared with video alone."
+  },
+  {
+   "id": "yc:outworld-labs",
+   "theme": "Data and simulation for physical AI",
+   "name": "Outworld Labs",
+   "url": "https://www.ycombinator.com/companies/outworld-labs",
+   "source": "yc",
+   "date": "2026-11-12",
+   "signal": "YC Fall 2026; Robotics",
+   "summary": "Robotics simulation indistinguishable from reality. Outworld Labs is building a simulation platform for training and evaluating robot foundation models. The platform is built on a brand new physics engine designed from the ground up for dexterous manipulation. It enables researchers to easily create realistic environments, reconstruct and augment real-world data, and improve their models through large-scale simulation without the cost of physical robots and real-world data collection.",
+   "idea": "Outworld Labs is building a robot simulation platform on a new physics engine designed for dexterous manipulation, used to train and evaluate robot foundation models.",
+   "why": "It bets that existing physics engines are not good enough for hand-level manipulation, so cheap, realistic simulation can replace much costly real-world data collection.",
+   "edges": [],
+   "edge_note": "Needs to show that policies trained in its simulation transfer to real robots better than those from existing engines."
+  },
+  {
+   "id": "yc:nines",
+   "theme": "Data and simulation for physical AI",
+   "name": "Nines",
+   "url": "https://www.ycombinator.com/companies/nines",
+   "source": "yc",
+   "date": "2026-11-12",
+   "signal": "YC Fall 2026; Robotics, AI",
+   "summary": "Robot pit crew for AI data centers. Nines builds autonomous robots, and the models that run them, for data centers. The AI buildout is the biggest construction project of our lifetime, and the physical work inside it is still done by hand. Every GPU rack needs thousands of fiber connections matched, inserted, and verified before a hall goes live. After that, every building needs people on site around the clock to swap drives, transceivers, and fans. With our robots operators bring capacity online faster, with fewer errors and less downtime.",
+   "idea": "Nines builds autonomous robots, and the models that run them, to connect fiber and swap parts inside AI data centers.",
+   "why": "It targets the manual labor inside the AI buildout itself: thousands of fiber connections per rack and round-the-clock part swaps. The setting is structured and labor is the bottleneck, which favors robots.",
+   "edges": [],
+   "edge_note": "Needs near-zero error rates and deals with data center operators that move faster than hiring technicians."
+  },
+  {
+   "id": "yc:dualizer",
+   "theme": "AI for science and engineering",
+   "name": "Dualizer",
+   "url": "https://www.ycombinator.com/companies/dualizer",
+   "source": "yc",
+   "date": "2026-11-13",
+   "signal": "YC Fall 2026; Hard Tech, Machine Learning, SaaS, Manufacturing, Enterprise Software",
+   "summary": "AI-powered physical simulation to design/optimize chemical processes. Dualizer builds AI-powered, physics-based process simulation and digital twins to design and scale chemical processes and optimize existing plants. We help engineering teams identify bottlenecks, increase yield and throughput, and reduce energy and production costs—improving plant efficiency and profitability. The platform combines AI reasoning, our proprietary deterministic simulation and optimization engine, and physics-informed machine learning. Engineers can build, calibrate, and refine models through conversation,…",
+   "idea": "Dualizer combines AI reasoning with a deterministic physics simulation engine so engineers can design chemical processes and optimize existing plants by conversation.",
+   "why": "It pairs language models with a deterministic solver instead of trusting the model alone. This approach could open process simulation, a field dominated by legacy tools, to more engineers.",
+   "edges": [],
+   "edge_note": "Needs simulations accurate enough that plant engineers act on them, plus long industrial sales cycles."
+  },
+  {
+   "id": "tc:3186906",
+   "theme": "AI for science and engineering",
+   "name": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+   "source": "techcrunch",
+   "date": "2026-11-10",
+   "signal": "TechCrunch",
+   "summary": "PSI is trying to make a business out of AI-driven scientific discovery. PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+   "idea": "PSI is building a business around AI-driven scientific discovery, starting with an answer to a long-open question in quantum computing.",
+   "why": "It used an unreleased Anthropic model to answer a question that scientists have pursued for nearly two decades. That suggests frontier models can now produce original research results, though the business model is still unproven.",
+   "edges": [],
+   "edge_note": "Needs a repeatable way to turn discoveries into revenue, such as licensing, partnerships or products."
+  },
+  {
+   "id": "hn:50455811",
+   "theme": "Agent tooling",
+   "name": "Pomerado (YC F26) – Turn any website into an MCP for agents",
+   "url": "https://news.ycombinator.com/item?id=50455811",
+   "source": "hn",
+   "date": "2026-11-11",
+   "signal": "Launch HN, 64 pts, https://news.ycombinator.com/item?id=50455811",
+   "summary": "Pomerado (YC F26) – Turn any website into an MCP for agents. Hi HN, we’re Alan and Akshay from Pomerado ( https://pomerado.ai/ ). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve. Agents are no longer limited by their intelligence, but rather by their ability to interact with systems. Airlines, banks, e-commerce, insurance portals, government sites, and legacy portals all lack APIs or MCPs and are common parts of personal assistant or business workflows. Agents instead rely on browser automation or computer use, which…",
+   "idea": "Pomerado turns any website into a deterministic, self-healing API (exposed through MCP, a standard for connecting agents to tools) so agents can use sites that have no API.",
+   "why": "It replaces slow, fragile browser automation with fixed endpoints for portals like airlines, banks and government sites. It treats agents' ability to use these systems, not model intelligence, as the bottleneck.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs to keep up with site changes and anti-bot defenses at scale."
+  },
+  {
+   "id": "hn:50517803",
+   "theme": "Agent tooling",
+   "name": "Coral – Open-source gateway where agents write their own tools",
+   "url": "https://github.com/withcoral/coral",
+   "source": "hn",
+   "date": "2026-11-16",
+   "signal": "Show HN, 50 pts, https://news.ycombinator.com/item?id=50517803",
+   "summary": "Coral – Open-source gateway where agents write their own tools. Hi HN, I'm James, one of the co-founders of Coral. Coral is an open-source, self-hosted gateway that sits between your agents and the systems they work on. Agents call tools by writing short TypeScript programs that they can save as custom tools to reuse. You can publish custom tools for groups of agents, so your team’s library of tools adapts to your unique systems, data and use cases. Custom tools help agent performance and give more precise units of permission control. Here’s a short demo:…",
+   "idea": "Coral is an open-source, self-hosted gateway where agents call systems by writing short TypeScript programs, then save and share them as reusable tools.",
+   "why": "The set of tools grows out of what agents actually do, and each custom tool becomes a smaller unit of permission control. This mixes self-improvement with governance.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs security teams to trust code written by agents and a clear paid tier on top of the open-source core."
+  }
+ ],
+ "counts": {
+  "yc": 15,
+  "hn": 30,
+  "techcrunch": 13
+ },
+ "failed_sources": []
+}

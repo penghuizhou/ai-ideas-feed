@@ -1,7 +1,17 @@
 {
  "version": 1,
- "updated": "2026-11-09T21:22:51+00:00",
+ "updated": "2026-11-16T20:53:40+00:00",
  "digests": [
+  {
+   "id": "2026-11-16-weekly",
+   "kind": "weekly",
+   "title": "AI startup ideas — Weekly, 2026-11-09 to 2026-11-16",
+   "period_start": "2026-11-09T21:22:03+00:00",
+   "period_end": "2026-11-16T20:52:50+00:00",
+   "overview": "This week's strongest ideas treat prediction markets as raw material for a financial layer: structured hedges, quant trading, and market-wide world models. A second group builds the checks and training data that AI now needs, such as formal verification data for labs and fixes for outdated code habits in coding agents. Several companies sell finished work, like permit filings, legal work or buyer research, instead of selling tools. Physical AI is also moving toward data collection and simulation, from muscle-signal sleeves to new physics engines, while agent infrastructure keeps turning the web and internal systems into reusable tools.",
+   "idea_count": 15,
+   "hash": "bfb58ec1fed817b5"
+  },
   {
    "id": "2026-11-09-weekly",
    "kind": "weekly",
