@@ -1,0 +1,246 @@
+{
+ "id": "2026-11-23-weekly",
+ "kind": "weekly",
+ "title": "AI startup ideas — Weekly, 2026-11-16 to 2026-11-23",
+ "period_start": "2026-11-16T20:52:50+00:00",
+ "period_end": "2026-11-23T22:30:15+00:00",
+ "overview": "This week's ideas show AI moving from single tasks to running whole loops: agents that write code, test it in CI, and maintain open-source projects, plus an AI that claims to set a company's direction. A second group uses AI to make capital decisions, from turning market views into stock portfolios to lending against hardware companies' operating data. Several small teams shipped narrow, efficient models that compete on accuracy and cost rather than size. Physical-world AI keeps drawing money for data and for autonomy in defense.",
+ "themes": [
+  "AI in capital and markets",
+  "Infrastructure for agent-written software",
+  "AI that directs judgment",
+  "Small, precise models and open infrastructure",
+  "Physical-world autonomy and its data"
+ ],
+ "ideas": [
+  {
+   "id": "tc:3191460",
+   "theme": "AI in capital and markets",
+   "name": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+   "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+   "source": "techcrunch",
+   "date": "2026-11-23",
+   "signal": "TechCrunch",
+   "summary": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios. Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+   "idea": "Supertake lets users state a view on where the market is going and has AI agents turn it into a stock portfolio.",
+   "why": "It moves the investing interface from picking stocks to stating views, with agents handling the mapping from idea to holdings. The $20M raise suggests investors see thesis-to-portfolio translation as a product in its own right.",
+   "edges": [
+    "investment research workflow",
+    "pricing and risk"
+   ],
+   "edge_note": "Needs portfolio mapping that users trust and clear risk controls when a view is wrong."
+  },
+  {
+   "id": "yc:avout",
+   "theme": "AI in capital and markets",
+   "name": "Avout",
+   "url": "https://www.ycombinator.com/companies/avout",
+   "source": "yc",
+   "date": "2026-11-18",
+   "signal": "YC Fall 2026; Fintech, Finance, Lending, Neobank",
+   "summary": "Avout - new finance company for the American frontier. Avout provides non-dilutive financing to companies building in the physical world: robotics, space, drones, autonomy, and AI infrastructure & data. Hardware companies need capital for equipment, inventory, and production long before revenue catches up. Today they fund it with venture equity, the most expensive money they'll ever raise, because banks don't understand the assets or move at startup speed. We're starting with asset-backed lending and revenue-based financing, using a company's own operating data to make decisions quickly. Our…",
+   "idea": "Avout lends to robotics, space, drone and AI infrastructure companies through asset-backed loans and revenue-based financing, underwriting with each company's own operating data.",
+   "why": "Hardware startups mostly fund equipment and inventory with expensive equity because banks do not understand the assets. Fast data-driven underwriting could open a debt market for this sector.",
+   "edges": [
+    "pricing and risk"
+   ],
+   "edge_note": "Needs reliable ways to value specialized hardware collateral and a low-cost source of lending capital."
+  },
+  {
+   "id": "hn:50536468",
+   "theme": "Infrastructure for agent-written software",
+   "name": "StarSling (YC P25) – Self-improving CI for agent-volume repos",
+   "url": "https://news.ycombinator.com/item?id=50536468",
+   "source": "hn",
+   "date": "2026-11-17",
+   "signal": "Launch HN, 89 pts, https://news.ycombinator.com/item?id=50536468",
+   "summary": "StarSling (YC P25) – Self-improving CI for agent-volume repos. We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows. Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurrency so a burst of agent PRs all run at once. We’re different from other runners because ours come with agents that cut down your CI bill over time. PRs are generated through our CI harness, which runs an agent loop that’s tuned to improve…",
+   "idea": "StarSling runs GitHub Actions jobs in fast ephemeral sandboxes and uses agents that open PRs to improve tests and workflows and lower CI costs over time.",
+   "why": "It builds CI for repos where bursts of agent-written PRs arrive at once, and it competes partly on a CI bill that falls over time. That is a new pitch for a runner business.",
+   "edges": [],
+   "edge_note": "Needs its agent PRs to be accepted by teams and the cost savings to show up on the bill."
+  },
+  {
+   "id": "hn:50548660",
+   "theme": "Infrastructure for agent-written software",
+   "name": "Mastra Factory, the open-source software factory we use to build Mastra",
+   "url": "https://news.ycombinator.com/item?id=50548660",
+   "source": "hn",
+   "date": "2026-11-18",
+   "signal": "Show HN, 159 pts, https://news.ycombinator.com/item?id=50548660",
+   "summary": "Mastra Factory, the open-source software factory we use to build Mastra. Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself. At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across…",
+   "idea": "Mastra open-sourced Factory, the agent-driven software factory its team uses to merge hundreds of PRs a week on its own framework.",
+   "why": "A popular open-source project maintained largely by its own agent pipeline shows that agentic engineering is working at real scale. Releasing the internal tool turns that workflow into a product.",
+   "edges": [],
+   "edge_note": "Needs other teams to get the same results outside Mastra's own codebase."
+  },
+  {
+   "id": "hn:50549188",
+   "theme": "Infrastructure for agent-written software",
+   "name": "Maritime (YC F26) – A managed cloud for production AI agents",
+   "url": "https://news.ycombinator.com/item?id=50549188",
+   "source": "hn",
+   "date": "2026-11-18",
+   "signal": "Launch HN, 60 pts, https://news.ycombinator.com/item?id=50549188",
+   "summary": "Maritime (YC F26) – A managed cloud for production AI agents. Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ). We're building an agent-native cloud that handles everything from custom environments to lifecycle management for AI agents. Demo: https://www.youtube.com/watch?v=lCWMdBQ96rY There’s been an explosion of sandbox companies coming out of SF, but sandboxes solve maybe 10% of the infrastructure problem for AI agents. The approach that most sandboxing companies take is: You buy Hetzner/OVH Cloud bare metal servers, use Firecracker to slice the servers up into…",
+   "idea": "Maritime is a managed cloud for production AI agents that handles custom environments and agent lifecycle management, not just sandboxes.",
+   "why": "It argues that sandboxes solve only a small part of agent infrastructure and that agents need a cloud built for their whole lifecycle. That points to a layer beyond the crowded sandbox market.",
+   "edges": [],
+   "edge_note": "Needs to stand out from both sandbox startups and the big clouds adding agent features."
+  },
+  {
+   "id": "yc:fluxcap",
+   "theme": "AI that directs judgment",
+   "name": "FluxCap",
+   "url": "https://www.ycombinator.com/companies/fluxcap",
+   "source": "yc",
+   "date": "2026-11-19",
+   "signal": "YC Spring 2026; LegalTech, AI",
+   "summary": "FluxCap is Deep Legal Tech built to think like a lawyer. FluxCap is a Deep Legal Tech platform built to think like a lawyer, bringing expert-level legal reasoning to complex litigation and helping ambitious lawyers win cases on the merits, not resources. Its platform, powered by its Advanced Legal Reasoning Architecture (ALRA), helps lawyers reason through the law, evidence, and strategy of a case as a whole. FluxCap was founded by Jonathan Kanter, former U.S. Assistant Attorney General for Antitrust, and Doha Mekki, former Acting Assistant Attorney General, and built by former Justice…",
+   "idea": "FluxCap is a litigation platform that helps lawyers reason through the law, evidence and strategy of a whole case.",
+   "why": "It aims at whole-case reasoning rather than document review, and its founders are former senior antitrust officials at the Justice Department. Domain credibility is the wedge in a crowded legal AI market.",
+   "edges": [],
+   "edge_note": "Needs to show measurable gains in case outcomes that litigators will trust."
+  },
+  {
+   "id": "yc:luminary",
+   "theme": "AI that directs judgment",
+   "name": "Luminary",
+   "url": "https://www.ycombinator.com/companies/luminary",
+   "source": "yc",
+   "date": "2026-11-18",
+   "signal": "YC Winter 2027; Operations, AI, AI Assistant",
+   "summary": "AI CEO that leads human & agent teams on company-wide missions. Luminary is an AI CEO that leads human and agent teams on company-wide missions. We're building the complete infrastructure for a fully AI-native company, starting with a world model of how your business works and building up to an AI CEO that can lead it. Today's AI tools are good at automating the work they're handed, but they still wait to be told what to do next. So even with the abundance of AI agents, companies are still bottlenecked by leadership and vision. Someone has to decide what's worth building, rally the right…",
+   "idea": "Luminary is building an AI CEO that sets company-wide missions and leads human and agent teams, starting from a world model of how the business works.",
+   "why": "It moves the target from automating assigned tasks to deciding what work matters, based on the claim that leadership is now the bottleneck. It is a test of whether AI can own prioritization.",
+   "edges": [],
+   "edge_note": "Needs an accurate model of the business and executives willing to hand over direction-setting."
+  },
+  {
+   "id": "hn:50559749",
+   "theme": "AI that directs judgment",
+   "name": "Foolscap – a writing app that reads your book and never writes for you",
+   "url": "https://foolscap.works/",
+   "source": "hn",
+   "date": "2026-11-19",
+   "signal": "Show HN, 132 pts, https://news.ycombinator.com/item?id=50559749",
+   "summary": "Foolscap – a writing app that reads your book and never writes for you. People are scared of their ability to write and think atrophying, so I wondered: what if I built something that enhanced human creativity instead of destroying it by doing the thinking and writing for people? Foolscap is the result, or at least the first version of that idea that's fleshed out enough to share here. It reads as you write and picks out the structure: characters, ideas, threads, what's left hanging. You can respond to what it picks out, so there's a dialectic between the system and you as the writer.…",
+   "idea": "Foolscap is a writing app that reads a book as it is written and surfaces its structure, such as characters, threads and loose ends, but never writes text itself.",
+   "why": "It is a deliberate bet against generation: AI used only for analysis, to keep the writer thinking. It points to demand for tools that support human work without replacing it.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs structure extraction good enough that writers find it useful, not distracting."
+  },
+  {
+   "id": "hn:50523377",
+   "theme": "Small, precise models and open infrastructure",
+   "name": "Open-source, real-time object tracking for live video feeds",
+   "url": "https://github.com/aryamandarda/tamserve",
+   "source": "hn",
+   "date": "2026-11-16",
+   "signal": "Show HN, 123 pts, https://news.ycombinator.com/item?id=50523377",
+   "summary": "Open-source, real-time object tracking for live video feeds. I type \"forklift\" on a live warehouse camera, and tamserve finds and tracks both forklifts, including the one driving in. Then I add \"person\" without stopping it. tamserve runs Meta's SAM 3 on live camera feeds. SAM 3's own tracker handles one recorded video at a time, runs at about 8 fps, and runs out of memory on long videos. tamserve uses SAM 3 to find objects every few frames and a lightweight tracker (EdgeTAM) to follow them in between, with one copy of each model shared across all your cameras. *On one RTX 4090:* * *Any…",
+   "idea": "tamserve is open-source software that tracks any object named in text across many live camera feeds, using SAM 3 for detection every few frames and a lightweight tracker in between.",
+   "why": "It turns a research model that works on one recorded video at a time into a multi-camera live system on a single GPU. Open-vocabulary video monitoring becomes cheap to deploy.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs a paid wedge, such as warehouse or safety monitoring, on top of the open-source core."
+  },
+  {
+   "id": "hn:50532515",
+   "theme": "Small, precise models and open infrastructure",
+   "name": "An API for word timestamps from speech, 75% within 20ms",
+   "url": "https://quebec.yarn.so",
+   "source": "hn",
+   "date": "2026-11-17",
+   "signal": "Show HN, 82 pts, https://news.ycombinator.com/item?id=50532515",
+   "summary": "An API for word timestamps from speech, 75% within 20ms. Hey HN, we're Yarn (W24) and we make a video editing app for startups, and we built Quebec ( https://quebec.yarn.so ), an API that gives you accurate word timestamps from speech. We needed it because cutting a word even 50ms off from its true timing can ruin talking head footage (examples in the write up). Accurate word timestamps usually come from a forced aligner, which takes the speech audio and a transcript and works out exactly when each word starts and ends. We weren't satisfied with the accuracy of Montreal Forced Aligner (MFA)…",
+   "idea": "Quebec is an API from video-editing startup Yarn that returns word-level timestamps from speech, with 75% of words within 20ms.",
+   "why": "A narrow precision problem found while building an editing product became its own API that beats a common open-source aligner. It is an example of internal tooling spun out as infrastructure.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs to keep its accuracy lead as general speech models improve their timestamps."
+  },
+  {
+   "id": "hn:50526023",
+   "theme": "Small, precise models and open infrastructure",
+   "name": "I made an audio-to-MIDI model 60x more efficient",
+   "url": "https://kobi.music/research/dettato",
+   "source": "hn",
+   "date": "2026-11-17",
+   "signal": "Show HN, 310 pts, https://news.ycombinator.com/item?id=50526023",
+   "summary": "I made an audio-to-MIDI model 60x more efficient. I released dettato, my open weight audio to midi transcription model. It beats muscriptor 1.3b on every set and is roughly 60x smaller, without training on copyrighted recordings. Feel free to ask questions",
+   "idea": "dettato is an open-weight audio-to-MIDI transcription model that beats a much larger model on every test set while being about 60x smaller.",
+   "why": "It was trained without copyrighted recordings, which reduces legal risk for music tools. It also shows that a small focused model can beat a large one in a niche.",
+   "edges": [
+    "solo-buildable"
+   ],
+   "edge_note": "Needs a business around it, such as an API or a plugin for music software."
+  },
+  {
+   "id": "hn:50533270",
+   "theme": "Small, precise models and open infrastructure",
+   "name": "TrnRT – An open-source LLM inference engine for AWS Trainium",
+   "url": "https://github.com/RunanywhereAI/trnrt",
+   "source": "hn",
+   "date": "2026-11-17",
+   "signal": "Show HN, 54 pts, https://news.ycombinator.com/item?id=50533270",
+   "summary": "TrnRT – An open-source LLM inference engine for AWS Trainium. Hi HN, Sanchit here from RunAnywhere (YC W26). We just open-sourced TrnRT: Trainium RunTime, our inference engine for AWS Trainium. We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models support soon. It’s open to contributions :) What it does today: - Serves 2 instances of GLM-5.3 flash on a single box, 8 trn2 with a cache aware router. - Can process 3.57M TPM (tokens per minute) on SemiAnalysis's AgentX benchmarks. - Runs decode as one NKI kernel…",
+   "idea": "TrnRT is an open-source LLM inference engine for AWS Trainium chips, from RunAnywhere.",
+   "why": "It was built in three weeks and already serves a large open model on Trainium. It shows that the software gap for non-Nvidia chips is a startup opening.",
+   "edges": [],
+   "edge_note": "Needs broad model support and performance that holds up against AWS's own tooling."
+  },
+  {
+   "id": "tc:3189441",
+   "theme": "Small, precise models and open infrastructure",
+   "name": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+   "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+   "source": "techcrunch",
+   "date": "2026-11-18",
+   "signal": "TechCrunch",
+   "summary": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents. With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+   "idea": "Unsiloed AI converts enterprise documents into a form AI agents can reliably use.",
+   "why": "A seven-person team won a Felicis-led round in a crowded document-processing market. Document parsing is being repositioned as the input layer for agents.",
+   "edges": [],
+   "edge_note": "Needs clearly better extraction accuracy than both tech giants and specialized rivals."
+  },
+  {
+   "id": "yc:foreshadow-industries",
+   "theme": "Physical-world autonomy and its data",
+   "name": "Foreshadow Industries",
+   "url": "https://www.ycombinator.com/companies/foreshadow-industries",
+   "source": "yc",
+   "date": "2026-11-19",
+   "signal": "YC Fall 2026; Robotics, Defense, AI, Industrial",
+   "summary": "Defense robotics built on AI models that reason over space and time. We turn existing military systems into intelligent machine. Our AI model (Zulu) is designed to natively reason over space and time. That is what enables long duration missions. Zulu is trained to operate maritime vessels, airplanes, ground vehicles and satellites. We have integrated it with military vessels and demonstrated long-duration missions over an entire period of darkness, multiple times, and on two vessels simultaneously. Founded by former SpaceX & Anduril Engineers.",
+   "idea": "Foreshadow Industries adds its Zulu model, which reasons over space and time, to existing military vessels, aircraft, ground vehicles and satellites to make them autonomous.",
+   "why": "It upgrades systems the military already owns instead of building new hardware, and it has shown long-duration missions overnight on two vessels at once.",
+   "edges": [],
+   "edge_note": "Needs defense procurement wins and integration across many legacy platforms."
+  },
+  {
+   "id": "tc:3188451",
+   "theme": "Physical-world autonomy and its data",
+   "name": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+   "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+   "source": "techcrunch",
+   "date": "2026-11-18",
+   "signal": "TechCrunch",
+   "summary": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need. Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+   "idea": "Humyn Labs, based in India, supplies training data to US robotics companies.",
+   "why": "Founded in February, it already earns about 90% of its revenue in the US. Robotics data collection is becoming a cross-border labor-and-data market, much like text labeling did earlier.",
+   "edges": [],
+   "edge_note": "Needs data quality and coverage that stay ahead of Mecka AI, XDOF and in-house collection."
+  }
+ ],
+ "counts": {
+  "yc": 7,
+  "hn": 26,
+  "techcrunch": 12
+ },
+ "failed_sources": []
+}

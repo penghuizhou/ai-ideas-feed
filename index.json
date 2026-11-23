@@ -1,7 +1,17 @@
 {
  "version": 1,
- "updated": "2026-11-16T20:53:40+00:00",
+ "updated": "2026-11-23T22:31:05+00:00",
  "digests": [
+  {
+   "id": "2026-11-23-weekly",
+   "kind": "weekly",
+   "title": "AI startup ideas — Weekly, 2026-11-16 to 2026-11-23",
+   "period_start": "2026-11-16T20:52:50+00:00",
+   "period_end": "2026-11-23T22:30:15+00:00",
+   "overview": "This week's ideas show AI moving from single tasks to running whole loops: agents that write code, test it in CI, and maintain open-source projects, plus an AI that claims to set a company's direction. A second group uses AI to make capital decisions, from turning market views into stock portfolios to lending against hardware companies' operating data. Several small teams shipped narrow, efficient models that compete on accuracy and cost rather than size. Physical-world AI keeps drawing money for data and for autonomy in defense.",
+   "idea_count": 15,
+   "hash": "0f275267453c97ff"
+  },
   {
    "id": "2026-11-16-weekly",
    "kind": "weekly",
